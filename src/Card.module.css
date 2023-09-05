@@ -1,0 +1,55 @@
+.card {
+    flex: 10 10 300px;
+    position: relative;
+    box-shadow: 2px 2px 40px hsl(var(--muted) / .5);
+    padding: var(--space-lg);
+    border-radius: var(--round-lg);
+    border-top: .1em solid white;
+    border-left: .1em solid white;
+    max-width: var(--content);
+    padding-top: 0.8rem;
+    width: 90%;
+  }
+  
+  .body {
+    max-width: var(--content);
+    margin-bottom: 0.8rem;
+  }
+  
+  .image {
+    width: 95%;
+    max-width: 100%;
+    aspect-ratio: 16/12;
+    object-fit: cover;
+    border-radius: var(--round-md);
+    padding-bottom: 0.8rem;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    
+  }
+
+.modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    margin-top: 0.8rem;
+}
+
+.read-more {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+    margin-bottom: 0.8rem;
+}
+
+.more{
+  max-width: var(--content);
+  margin-bottom: 0.8rem;
+}
